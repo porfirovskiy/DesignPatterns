@@ -1,0 +1,15 @@
+{
+    "name": "test/design-patterns",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ssdd",
+            "email": "ass@dd.cod"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": { "DesignPatterns\\": "src"}
+    }
+}

@@ -1,0 +1,5 @@
+Add composer to project:
+
+    1. "composer init" or create composer.json with hands
+    2. add "autoload" section in composer.json file
+    3. "composer install" if dir "vendor" does not exist or "composer dump-autoload -o" if exist
