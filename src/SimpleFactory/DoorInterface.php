@@ -6,4 +6,5 @@ interface DoorInterface
 {
     public function getWidth(): float;
     public function getHeight(): float;
+    public function getType(): string;
 }

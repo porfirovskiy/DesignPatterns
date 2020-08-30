@@ -10,8 +10,8 @@ namespace DesignPatterns\SimpleFactory;
 
 class DoorFactory
 {
-    public static function makeDoor($width, $height): DoorInterface
+    public static function makeWoodenDoor(): DoorInterface
     {
-        return new WoodenDoor($width, $height);
+        return new WoodenDoor();
     }
 }

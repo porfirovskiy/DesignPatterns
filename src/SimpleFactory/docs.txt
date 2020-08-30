@@ -1,0 +1,3 @@
+https://refactoring.guru/ru/design-patterns/factory-comparison
+https://nixsolutions.github.io/design-patterns/creational/simple-factory/
+

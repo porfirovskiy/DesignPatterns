@@ -13,10 +13,10 @@ class WoodenDoor implements DoorInterface
     protected $width;
     protected $height;
 
-    public function __construct(float $width, float $height)
+    public function __construct()
     {
-        $this->width = $width;
-        $this->height = $height;
+        $this->width = 100;
+        $this->height = 350;
     }
 
     public function getWidth(): float
@@ -27,5 +27,10 @@ class WoodenDoor implements DoorInterface
     public function getHeight(): float
     {
         return $this->height;
+    }
+    
+    public function getType(): string
+    {
+        return 'wood';
     }
 }
