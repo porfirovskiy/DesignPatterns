@@ -32,3 +32,8 @@ class FactoryMethod2Test extends TestCase
         $this->assertInstanceOf(FileLogger::class, $logger);
     }
 }
+
+/**
+ * example of simple understandable factory
+ * https://designpatternsphp.readthedocs.io/ru/latest/Creational/FactoryMethod/README.html
+ */
