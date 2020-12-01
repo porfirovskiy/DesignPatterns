@@ -6,8 +6,13 @@ Add composer to project:
     
     
 Use this package in other project:
+
     1. Add new repo to composer json
     composer config repositories.foo '{"type": "vcs", "url": "https://github.com/porfirovskiy/testFromCompany1.git"}'
 
     2. Install your own package
     composer require username/reponame dev-master
+    
+    ------------------
+    Concrete example:
+    composer require porfirovskiy/api-wrapper dev-master
